@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="VsO2$%SdM80e2Y]to*R1" x="36" y="4"><statement name="HANDLER"><block type="controls_repeat_ext" id="?-]O8fV*;LzC=u#uys-c"><value name="TIMES"><shadow type="math_whole_number" id="Rz}j!k5DU!D1@:xgnf]{"><field name="NUM">100</field></shadow></value><statement name="DO"><block type="device_set_digital_pin" id="4pvUCb7E;`NgA`J8LYdc"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="ez9,Sqk-QEIPxtIfp1RM"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="device_show_leds" id="gUyu(Dd+s~pPwi.,61c,"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_pause" id="Kp=BO^Uqj!2v$7pLi[`P"><value name="pause"><shadow type="timePicker" id="id__0yD}s]!fK1@mxqcN"><field name="ms">5000</field></shadow></value><next><block type="device_set_digital_pin" id="B-=qknDSn)HCVQjJ58+m"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id=".;T;b=jK^8BvCIXHB}XF"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_show_leds" id=";=jg[-HW3@WMQ@*gvfu6"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="x,-yhz3/5YdE)_MBG}4L"><value name="pause"><shadow type="timePicker" id="QlZEMxV2p19gbE7}b_96"><field name="ms">5000</field></shadow></value><next><block type="device_set_digital_pin" id="C(l!YaJa1y*4,x7M+w5S"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="yL*=9%bef5ekj]m(Qxjn"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="device_show_leds" id="dH4/#{b+DI^Xksww:b|O"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="auxCYp6`U/$PsHlij:#h"><value name="pause"><shadow type="timePicker" id="heUN74E[FA}P%jUyFH{m"><field name="ms">5000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
